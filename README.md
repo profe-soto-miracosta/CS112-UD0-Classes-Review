@@ -18,53 +18,53 @@ For UD0, you are given `CardTester.java`, a tester class that contains a main me
 **The following are screenshots of the working tests for your reference, along with some additional notes:**
 
 Notice the difference between the output if there is no default constructor built vs. if there is. The screenshot below is when the default constructor is NOT built yet, only the `toString`. The `[]` (square brackets) are to indicate the start and end of the `toString` return value:
-![no default constructor screenshot](toStringNoDefault.png)
+![no default constructor screenshot](instructions/toStringNoDefault.png)
  
 
 Notice that the setter returns the appropriate boolean value, and that when the setter returns false there is no change since the last successful mutation:
-![setValue screenshot](setValue.png)
+![setValue screenshot](instructions/setValue.png)
  
 
 Notice that the setter returns the appropriate boolean value, and that when the setter returns false there is no change since the last successful mutation:
-![setSuit screenshot](setSuit.png)
+![setSuit screenshot](instructions/setSuit.png)
 
  
 
 Notice that the setter returns the appropriate boolean value, and that when the setter returns false there is no change since the last successful mutation:
-![setAll screenshot](setAll.png)
+![setAll screenshot](instructions/setAll.png)
 
  
 
 Remember the `toString` test? Once you complete the default constructor (which is much easier once you've completed the `setAll` method), you can scroll back to the `toString` test and see the change. Now it actually shows the default value!
-![default constructor screenshot](toStringDefault.png)
+![default constructor screenshot](instructions/toStringDefault.png)
 
  
 
 Full constructor test should create the following cards. To test the error scenario, uncomment the code as noted and your program should exit the program after printing an error message. Bad data should not be allowed in!
-![full constructor screenshot](fullConstructor.png)
+![full constructor screenshot](instructions/fullConstructor.png)
  
 
 Copy constructor should work similarly as well. To test the error scenario, uncomment the code as noted and your program should exit the program after printing an error message. Bad data should not be allowed in! See if you can answer the question (hint: check the CS111 PDF on copy constructors for some help):
-![copy constructor screenshot](copyConstructor.png)
+![copy constructor screenshot](instructions/copyConstructor.png)
  
 
 Getter should simply return the unicode char of the suit (assuming default constructor is working):
-![getSuit screenshot](getSuit.png)
+![getSuit screenshot](instructions/getSuit.png)
 
  
 
 Getter should simply return the integer value (not A but 1) of the card (assuming default constructor is working):
-![getValue screenshot](getValue.png)
+![getValue screenshot](instructions/getValue.png)
 
  
 
 This version of the getter for value should work appropriately for the letters that are on the printed card:
-![getPrintValue screenshot](getPrintValue.png)
+![getPrintValue screenshot](instructions/getPrintValue.png)
 
  
 
 Notice all combinations of mismatching data are tested:
-![equals screenshot](equals.png)
+![equals screenshot](instructions/equals.png)
  
 
 **Driver screenshot example:**
@@ -72,17 +72,17 @@ Notice all combinations of mismatching data are tested:
 For the driver, you can simply print the contents of the array by looping it and printing the `toString` method call. As long as you print all of the cards (each suit/value together) you can print them in whatever order you'd like.
 
 Here's one example that's slightly more challenging, printing the cards in 13 per row:
-![driver screenshot](driver.png)
+![driver screenshot](instructions/driver.png)
  
 
 Want an extra challenge (make sure this is **after** getting all of the above working)?
 
 ## **HACKER CHALLENGE!** 
-![barba gordon at computer in wheel chair with background poster "roll with pride"](oraclecode.jpeg)
+![barba gordon at computer in wheel chair with background poster "roll with pride"](instructions/oraclecode.jpeg)
 > Barbara Gordon (Oracle) in The Oracle Code graphic novel by Marieke Nijkamp and Manuel Prietano (image from TheMarySue.com)
 
 Use the ASCII art in `Card` class methods to get the following working (hint: you'll want to use the `getPrintCard` method 😃)
-![hacker challenge screenshot](hackerChallenge.png)
+![hacker challenge screenshot](instructions/hackerChallenge.png)
  
 
 **_Good luck!!!_** 
