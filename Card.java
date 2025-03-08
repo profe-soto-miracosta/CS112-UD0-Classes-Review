@@ -75,10 +75,7 @@ public class Card {
 	 * Copy constructor builds object with all data from Card object provided. No
 	 * changes made to original object, no shallow copying
 	 *
-	 * @param value numerical value of card (1-13), not what shows on card (A, 2-10,
-	 *              J, Q, K)
-	 * @param suit  one of four suit values (unicode value for heart, diamond,
-	 *              spade, or club)
+	 * @param original Card object to be copied
 	 */
 
 
